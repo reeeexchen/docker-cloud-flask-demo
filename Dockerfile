@@ -1,6 +1,6 @@
 FROM python:2.7.14-alpine
 
-LABEL author="Peng Xiao <xiaoquwl@gmail.com>"
+LABEL author="Rex Chan<rexchen1997@yahoo.com>"
 
 RUN apk add --no-cache gcc musl-dev openssl-dev libffi-dev
 COPY . /skeleton
